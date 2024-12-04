@@ -1,159 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-02T23:16:05 CET" name="Default suite" finished-at="2024-12-02T23:16:34 CET" duration-ms="28641">
+  <suite started-at="2024-12-04T12:37:53 CET" name="Default suite" finished-at="2024-12-04T12:38:19 CET" duration-ms="25602">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:VisualitzarCategoriesTest@3eb77ea8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RegisterTest@3eb77ea8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-12-02T23:16:05 CET" name="Default test" finished-at="2024-12-02T23:16:34 CET" duration-ms="28641">
-      <class name="VisualitzarCategoriesTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:VisualitzarCategoriesTest@3eb77ea8]" started-at="2024-12-02T23:16:05 CET" name="setUpClass" finished-at="2024-12-02T23:16:05 CET" duration-ms="163" status="PASS">
+    <test started-at="2024-12-04T12:37:53 CET" name="Default test" finished-at="2024-12-04T12:38:19 CET" duration-ms="25602">
+      <class name="RegisterTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:RegisterTest@3eb77ea8]" started-at="2024-12-04T12:37:53 CET" name="setUpClass" finished-at="2024-12-04T12:37:53 CET" duration-ms="176" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@2f84acf7]]>
+                <![CDATA[org.testng.TestRunner@20f6f88c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:VisualitzarCategoriesTest@3eb77ea8]" started-at="2024-12-02T23:16:06 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-02T23:16:09 CET" duration-ms="3903" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RegisterTest@3eb77ea8]" started-at="2024-12-04T12:37:53 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-04T12:38:00 CET" duration-ms="6254" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Visualitzar Categories de un grup"]]>
+                <![CDATA["Registrarse"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["VisualitzarCategories"]]>
+                <![CDATA["Register"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:VisualitzarCategoriesTest@3eb77ea8]" started-at="2024-12-02T23:16:09 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-02T23:16:13 CET" duration-ms="3465" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RegisterTest@3eb77ea8]" started-at="2024-12-04T12:38:00 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-04T12:38:04 CET" duration-ms="4909" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Visualitzar Categories de un grup"]]>
+                <![CDATA["Registrarse"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["VisualitzarCategories"]]>
+                <![CDATA["Register"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:VisualitzarCategoriesTest@3eb77ea8]" started-at="2024-12-02T23:16:13 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-02T23:16:16 CET" duration-ms="3526" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RegisterTest@3eb77ea8]" started-at="2024-12-04T12:38:04 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-04T12:38:09 CET" duration-ms="4470" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Visualitzar Categories de un grup"]]>
+                <![CDATA["Deixar buits"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["VisualitzarCategories"]]>
+                <![CDATA["Register"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:VisualitzarCategoriesTest@3eb77ea8]" started-at="2024-12-02T23:16:16 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-02T23:16:20 CET" duration-ms="3506" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RegisterTest@3eb77ea8]" started-at="2024-12-04T12:38:09 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-04T12:38:14 CET" duration-ms="4817" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Visualitzar Categories de un grup"]]>
+                <![CDATA["Contrasenyes no coincideixen"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["VisualitzarCategories"]]>
+                <![CDATA["Register"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:VisualitzarCategoriesTest@3eb77ea8]" started-at="2024-12-02T23:16:20 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-02T23:16:24 CET" duration-ms="3598" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:RegisterTest@3eb77ea8]" started-at="2024-12-04T12:38:14 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-04T12:38:19 CET" duration-ms="4931" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Visualitzar Categoria sense grup"]]>
+                <![CDATA["No acceptar politiques de privacitat"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["VisualitzarCategories"]]>
+                <![CDATA["Register"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:VisualitzarCategoriesTest@3eb77ea8]" started-at="2024-12-02T23:16:24 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-02T23:16:27 CET" duration-ms="3446" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Visualitzar Categoria sense grup"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["VisualitzarCategories"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:VisualitzarCategoriesTest@3eb77ea8]" started-at="2024-12-02T23:16:27 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-02T23:16:30 CET" duration-ms="3491" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Visualitzar Categoria sense grup"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["VisualitzarCategories"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:VisualitzarCategoriesTest@3eb77ea8]" started-at="2024-12-02T23:16:30 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-02T23:16:34 CET" duration-ms="3498" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Visualitzar Categoria sense grup"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["VisualitzarCategories"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:VisualitzarCategoriesTest@3eb77ea8]" started-at="2024-12-02T23:16:34 CET" name="tearDownClass" finished-at="2024-12-02T23:16:34 CET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:RegisterTest@3eb77ea8]" started-at="2024-12-04T12:38:19 CET" name="tearDownClass" finished-at="2024-12-04T12:38:19 CET" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- VisualitzarCategoriesTest -->
+      </class> <!-- RegisterTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
