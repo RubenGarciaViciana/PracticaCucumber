@@ -15,7 +15,7 @@ public class LogoutSteps {
 	WebDriver driver;
 	
 	@Given("el usuari esta en la pagina principal 3")
-	public void elUsuariEstaEnLaPaginaPrincipal2()
+	public void elUsuariEstaEnLaPaginaPrincipal3()
 	{
 		System.setProperty("webdriver.gecko.driver", "Drivers/geckodriver.exe");
 		driver = new ChromeDriver();
