@@ -44,11 +44,9 @@ WebDriver driver;
 	        String title = element.getAttribute("title");
 	        return title.contains("Wish List (1)") ? element : null;
 	    });
-
-	    // Obtener el título actualizado
-	    String texto = wishlistElement.getAttribute("title");
 	    
-	    // Opcional: verificar que el título contiene la cantidad esperada
+	    // Verificar si se ha añadido 
+	    String texto = wishlistElement.getAttribute("title");
 	    Assert.assertTrue(texto.contains("Wish List (1)"));
 	}
 }
