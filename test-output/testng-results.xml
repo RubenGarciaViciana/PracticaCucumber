@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-07T12:16:02 CET" name="Default suite" finished-at="2024-12-07T12:16:08 CET" duration-ms="6305">
+  <suite started-at="2024-12-11T18:44:21 CET" name="Default suite" finished-at="2024-12-11T18:44:28 CET" duration-ms="6454">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:EliminarWishlistTest@3eb77ea8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:AfegirCarritoTest@753432a2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-12-07T12:16:02 CET" name="Default test" finished-at="2024-12-07T12:16:08 CET" duration-ms="6305">
-      <class name="EliminarWishlistTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:EliminarWishlistTest@3eb77ea8]" started-at="2024-12-07T12:16:02 CET" name="setUpClass" finished-at="2024-12-07T12:16:02 CET" duration-ms="151" status="PASS">
+    <test started-at="2024-12-11T18:44:21 CET" name="Default test" finished-at="2024-12-11T18:44:28 CET" duration-ms="6454">
+      <class name="AfegirCarritoTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:AfegirCarritoTest@753432a2]" started-at="2024-12-11T18:44:21 CET" name="setUpClass" finished-at="2024-12-11T18:44:22 CET" duration-ms="280" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@4315e9af]]>
+                <![CDATA[org.testng.TestRunner@77eb5790]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:EliminarWishlistTest@3eb77ea8]" started-at="2024-12-07T12:16:02 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-07T12:16:08 CET" duration-ms="6118" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:AfegirCarritoTest@753432a2]" started-at="2024-12-11T18:44:22 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-11T18:44:28 CET" duration-ms="6105" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Eliminar element Wishlist"]]>
+                <![CDATA["Afegir Carrito"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["EliminarWishlist"]]>
+                <![CDATA["AfegirCarrito"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:EliminarWishlistTest@3eb77ea8]" started-at="2024-12-07T12:16:08 CET" name="tearDownClass" finished-at="2024-12-07T12:16:08 CET" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:AfegirCarritoTest@753432a2]" started-at="2024-12-11T18:44:28 CET" name="tearDownClass" finished-at="2024-12-11T18:44:28 CET" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- EliminarWishlistTest -->
+      </class> <!-- AfegirCarritoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
