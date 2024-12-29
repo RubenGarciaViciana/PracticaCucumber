@@ -59,6 +59,7 @@ public class SearchProductSteps {
 
         List<WebElement> productos = driver.findElements(By.cssSelector(".product-thumb"));
 
+        // No hi ha productes per mostrar
         Assert.assertTrue(productos.isEmpty());
 	}
 	
