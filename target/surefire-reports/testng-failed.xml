@@ -3,27 +3,6 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="VisualitzarContactUsTest">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- VisualitzarContactUsTest -->
-      <class name="EliminarWishlistTest">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- EliminarWishlistTest -->
-      <class name="RegisterTest">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="2 3"/>
-        </methods>
-      </class> <!-- RegisterTest -->
       <class name="SearchProductTest">
         <methods>
           <include name="setUpClass"/>
@@ -31,48 +10,83 @@
           <include name="runScenario" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- SearchProductTest -->
+      <class name="VisualitzarCarritoTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- VisualitzarCarritoTest -->
+      <class name="DetallProducteTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- DetallProducteTest -->
+      <class name="LogoutTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- LogoutTest -->
+      <class name="RunExampleTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- RunExampleTest -->
+      <class name="DeleteProductCarritoTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- DeleteProductCarritoTest -->
+      <class name="EliminarWishlistTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- EliminarWishlistTest -->
+      <class name="VisualitzarCategoriesTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- VisualitzarCategoriesTest -->
       <class name="IniciarSessioTest">
         <methods>
           <include name="setUpClass"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="1 2"/>
+          <include name="runScenario" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- IniciarSessioTest -->
-      <class name="VisualitzarPerfilTest">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- VisualitzarPerfilTest -->
-      <class name="LogoutTest">
-        <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
-        </methods>
-      </class> <!-- LogoutTest -->
       <class name="AfegirCarritoTest">
         <methods>
           <include name="setUpClass"/>
-          <include name="tearDownClass"/>
           <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
       </class> <!-- AfegirCarritoTest -->
-      <class name="RunExampleTest">
+      <class name="RegisterTest">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- RunExampleTest -->
-      <class name="VisualitzarCategoriesTest">
+      </class> <!-- RegisterTest -->
+      <class name="VeureWishlistTest">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="1 4 5 6 7"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- VisualitzarCategoriesTest -->
+      </class> <!-- VeureWishlistTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
