@@ -2,62 +2,62 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-02T18:47:25 CET" name="Default suite" finished-at="2025-01-02T18:47:37 CET" duration-ms="11820">
+  <suite started-at="2025-01-02T20:22:51 CET" name="Default suite" finished-at="2025-01-02T20:23:02 CET" duration-ms="10230">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:DetallProducteTest@753432a2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:VisualitzarCarritoTest@753432a2]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-01-02T18:47:25 CET" name="Default test" finished-at="2025-01-02T18:47:37 CET" duration-ms="11820">
-      <class name="DetallProducteTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:DetallProducteTest@753432a2]" started-at="2025-01-02T18:47:25 CET" name="setUpClass" finished-at="2025-01-02T18:47:25 CET" duration-ms="254" status="PASS">
+    <test started-at="2025-01-02T20:22:51 CET" name="Default test" finished-at="2025-01-02T20:23:02 CET" duration-ms="10230">
+      <class name="VisualitzarCarritoTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:VisualitzarCarritoTest@753432a2]" started-at="2025-01-02T20:22:51 CET" name="setUpClass" finished-at="2025-01-02T20:22:52 CET" duration-ms="257" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@7cea0110]]>
+                <![CDATA[org.testng.TestRunner@4f668f29]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:DetallProducteTest@753432a2]" started-at="2025-01-02T18:47:25 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-02T18:47:31 CET" duration-ms="6111" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:VisualitzarCarritoTest@753432a2]" started-at="2025-01-02T20:22:52 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-02T20:22:57 CET" duration-ms="5683" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Visualitzar Detall dels productes"]]>
+                <![CDATA["Visualitzar producte carrito"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["DetallProducte"]]>
+                <![CDATA["VisualitzarCarrito"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:DetallProducteTest@753432a2]" started-at="2025-01-02T18:47:31 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-02T18:47:37 CET" duration-ms="5399" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:VisualitzarCarritoTest@753432a2]" started-at="2025-01-02T20:22:57 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-02T20:23:02 CET" duration-ms="4223" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Visualitzar Detall dels productes"]]>
+                <![CDATA["Visualitzar carrito buit"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["DetallProducte"]]>
+                <![CDATA["VisualitzarCarrito"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:DetallProducteTest@753432a2]" started-at="2025-01-02T18:47:37 CET" name="tearDownClass" finished-at="2025-01-02T18:47:37 CET" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:VisualitzarCarritoTest@753432a2]" started-at="2025-01-02T20:23:02 CET" name="tearDownClass" finished-at="2025-01-02T20:23:02 CET" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- DetallProducteTest -->
+      </class> <!-- VisualitzarCarritoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
